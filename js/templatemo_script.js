@@ -35,9 +35,9 @@ jQuery(function($) {
         if($(window).width() > 767) {
            var navWidth = $('.navbar .navbar-nav').width();
 
-            $('hgroup').css("maxWidth",navWidth + "px");
-            $('.templatemo-content').css("maxWidth",navWidth + "px");
-            $('.footer-wrapper').css("maxWidth",navWidth + "px");
+            $('hgroup').css("maxWidth",navWidth*3 + "px");
+            $('.templatemo-content').css("maxWidth",navWidth*3 + "px");
+            $('.footer-wrapper').css("maxWidth",navWidth*3 + "px");
         }   
 		
 		/*
